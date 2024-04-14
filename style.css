@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+span{
+    color: white;
+    font-family:Impact;
+    font-size: 2.6vw;
+    border: solid 5px white;
+    border-radius: 5%;
+    margin-right: 5px;
+    padding: 0 5px;
+
+   
+
+}
+.logo-menu{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-menu img{
+    margin-top: 10px;
+    width: 30%;
+    height: 30%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    height: 4vw;
+}
+li{
+  
+    font-size: 1.1vw;
+    margin-top: 3px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.categories{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: lucida handwriting;
+    color:	rgb(227, 188, 154);
+    font-size: 1.6vw;
+    border-bottom: solid 1px white;
+    
+    padding-left: 30px;
+}
+
+
+.main-container{
+   
+    width: 100%;
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    
+
+  
+}
+.body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body-left-side{
+
+    width: 50%;
+}
+.body-left-side h2{
+    font-family: lucida handwriting;
+    font-size: 3vw;
+   
+    color:	rgb(227, 188, 154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.body-right-side{
+   margin-right: 30px;
+    width: 50%;
+    
+   
+}
+
+ul .price{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.6vw;
+    color:	rgb(230, 220, 212);
+}
+.food_picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 20%;
+   
+}
+
+.food_picture img{
+    width: 5vw;
+    height: 5vw;
+    border: solid white 2px;
+    border-radius: 5px;
+}
+
+.food_price{
+    width: 80%;
+}
+
+.food_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant_name{
+    font-family:lucida handwriting;
+    font-size: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
